@@ -91,7 +91,7 @@
 {
    border-radius: 50%;
     transition: all 1s;
-    border: 3px dashed #F21B3F;
+    border: 3px dashed rgba(8,61,119);
    
 }
 
