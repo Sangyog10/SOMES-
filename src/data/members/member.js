@@ -1,17 +1,17 @@
-import BABITA from "../assets/members/BABITA.jpg";
-import BONUS from "../assets/members/BONUS.jpg";
-import BINITA from "../assets/members/BINITA.jpg";
-import MAHENDRA from "../assets/members/MAHENDRA.jpg";
-import MANJITA from "../assets/members/MANJITA.jpg";
-import NARAYAN from "../assets/members/NARAYAN.jpg";
-import PRAKASH from "../assets/members/PRAKASH.jpg";
-import SAGAR from "../assets/members/SAGAR.jpg";
-import YUKESH from "../assets/members/YUKESH.jpg";
-import DEEPAN from "../assets/members/DEEPAN.jpg";
-import PRATIK from "../assets/members/PRATIK.jpg";
-import SURAJ from "../assets/members/SURAJ.gif";
-import SAKSHAM from "../assets/members/SAKSHAM.jpg";
-import DAKSHINA from "../assets/members/DAKSHINA.jpg";
+import BABITA from "../../assets/members/BABITA.jpg";
+import BONUS from "../../assets/members/BONUS.jpg";
+import BINITA from "../../assets/members/BINITA.jpg";
+import MAHENDRA from "../../assets/members/MAHENDRA.jpg";
+import MANJITA from "../../assets/members/MANJITA.jpg";
+import NARAYAN from "../../assets/members/NARAYAN.jpg";
+import PRAKASH from "../../assets/members/PRAKASH.jpg";
+import SAGAR from "../../assets/members/SAGAR.jpg";
+import YUKESH from "../../assets/members/YUKESH.jpg";
+import DAKSHINA from "../../assets/members/DAKSHINA .jpg";
+import SURAJ from "../../assets/members/SURAJ.gif";
+import DIPAN from "../../assets/members/DIPAN.jpg";
+import SAKSHAM from "../../assets/members/SAKSHAM.jpg";
+import PRATIK from "../../assets/members/PRATIK.jpg";
 
 const members = [
   {
@@ -81,7 +81,7 @@ const members = [
     id: 1009,
     name: "Deepan Ghimire",
     position: "Ass. Event Manager",
-    face: DEEPAN,
+    face: DIPAN,
     facebook: "dipan.ghimire.1",
     email: "dpnghimire@gmail.com",
     phone: "9816948904",

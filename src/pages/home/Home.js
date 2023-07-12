@@ -3,7 +3,7 @@ import Layout from "../../components/layout/Layout";
 import "./styles.css";
 import { Link } from "react-router-dom";
 import Gallery from "../../components/gallery/Gallery.js";
-import Anil from "../../data/assets/members/ANIL.jpg";
+import Anil from "../../assets/members/ANIL.jpg";
 import hod from "../../data/assets/members/hod.jpg";
 const Home = () => {
   return (
