@@ -91,6 +91,7 @@
 {
    border-radius: 50%;
     transition: all 1s;
+    border: 3px dashed #F21B3F;
    
 }
 
