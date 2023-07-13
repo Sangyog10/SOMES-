@@ -18,7 +18,7 @@ const Gal = () => {
   return (
     <Layout title={"Gallery-SOMES"}>
       <div className="gallery-title">
-        <h1 className="text-center">MechCamp 2.0 Gallery</h1>
+        <h1 className="text-center">Mech-Camp 2.0 Gallery</h1>
       </div>
       <MDBRow>
         <MDBCol lg={4} md={12} className="mb-4 mb-lg-0">
@@ -32,7 +32,7 @@ const Gal = () => {
           <img
             src="/image/gallery/camera.jpg"
             className="w-100 shadow-1-strong rounded mb-4"
-            alt="Wintry Mountain Landscape"
+            alt="mechcamp"
             onClick={() => openModal("/image/gallery/camera.jpg")}
           />
           <img
@@ -67,25 +67,25 @@ const Gal = () => {
             src="/image/gallery/vintageJeep.jpg"
             className="w-100 shadow-1-strong rounded mb-4"
             onClick={() => openModal("/image/gallery/vintageJeep.jpg")}
-            alt="Wintry Mountain Landscape"
+            alt="mechcamp"
           />
           <img
             src="/image/gallery/fifa2.jpg"
             className="w-100 shadow-1-strong rounded mb-4"
             onClick={() => openModal("/image/gallery/fifa2.jpg")}
-            alt="Wintry Mountain Landscape"
+            alt="mechcamp"
           />
           <img
             src="/image/gallery/mechcamp.jpg"
             className="w-100 shadow-1-strong rounded mb-4"
             onClick={() => openModal("/image/gallery/mechcamp.jpg")}
-            alt="Wintry Mountain Landscape"
+            alt="mechcamp"
           />
           <img
             src="/image/gallery/football.jpg"
             className="w-100 shadow-1-strong rounded mb-4"
             onClick={() => openModal("/image/gallery/football.jpg")}
-            alt="Wintry Mountain Landscape"
+            alt="mechcamp "
           />
         </MDBCol>
 
@@ -119,7 +119,7 @@ const Gal = () => {
             src="/image/gallery/slide.jpg"
             className="w-100 shadow-1-strong rounded mb-4"
             onClick={() => openModal("/image/gallery/slide.jpg")}
-            alt="Wintry Mountain Landscape"
+            alt="mechcamp"
           />
         </MDBCol>
       </MDBRow>
@@ -131,7 +131,11 @@ const Gal = () => {
                 Close
               </button>
 
-              <img src={selectedImage} className="w-100" alt="Zoomed" />
+              <img
+                src={selectedImage}
+                className="w-100 modal-img"
+                alt="Zoomed"
+              />
             </>
           )}
         </MDBModalBody>

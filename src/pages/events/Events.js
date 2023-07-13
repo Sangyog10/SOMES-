@@ -43,7 +43,7 @@ const Events = () => {
       <MDBCardGroup>
         <div className="row">
           <div className="col-md-4 g-3">
-            <MDBCard>
+            <MDBCard className="card">
               <MDBCardImage
                 src="/image/project/presentation.jpg"
                 alt="..."
@@ -63,7 +63,7 @@ const Events = () => {
           </div>
 
           <div className="col-md-4 g-3">
-            <MDBCard>
+            <MDBCard className="card">
               <MDBCardImage
                 src="/image/project/demonstration.jpg"
                 alt="..."
@@ -81,7 +81,7 @@ const Events = () => {
           </div>
 
           <div className="col-md-4 g-3">
-            <MDBCard>
+            <MDBCard className="card">
               <MDBCardImage
                 src="/image/project/talk.jpg"
                 alt="..."
@@ -98,7 +98,7 @@ const Events = () => {
             </MDBCard>
           </div>
           <div className="col-md-4 g-3">
-            <MDBCard>
+            <MDBCard className="card">
               <MDBCardImage
                 src="/image/project/3d.jpg"
                 alt="..."
@@ -115,7 +115,7 @@ const Events = () => {
             </MDBCard>
           </div>
           <div className="col-md-4 g-3">
-            <MDBCard>
+            <MDBCard className="card">
               <MDBCardImage
                 src="/image/project/art.jpg"
                 alt="..."
@@ -132,7 +132,7 @@ const Events = () => {
             </MDBCard>
           </div>
           <div className="col-md-4 g-3">
-            <MDBCard>
+            <MDBCard className="card">
               <MDBCardImage
                 src="/image/project/robo.jpg"
                 alt="..."
@@ -149,7 +149,7 @@ const Events = () => {
             </MDBCard>
           </div>
           <div className="col-md-4 g-3">
-            <MDBCard>
+            <MDBCard className="card">
               <MDBCardImage
                 src="/image/project/fifa.jpg"
                 alt="..."
