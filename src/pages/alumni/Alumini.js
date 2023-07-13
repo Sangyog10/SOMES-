@@ -13,18 +13,25 @@ const Alumni = () => {
 
   return (
     <Layout title={"Alumni-SOMES"}>
-      <div className="alumini_content">
+      <div className="alumini_content mx-4">
         <h1>IOE Purwanchal Campus,BME-Alumni Database</h1>
-        <p>
-          A Campaign for Data collection of IOE- Purwanchal Campus BME Alumni
-          body. Initiated by Society of Mechanical Engineering Students(SOMES),
-          an active IOE Purwanchal Campus BME students based organization, with
-          an aim to build a strong alumni network. Please support us by
-          providing the following information.
+        <p className="mx-4">
+          Join us in an exciting endeavor as the Society of Mechanical
+          Engineering Students (SOMES), a vibrant organization of IOE Purwanchal
+          Campus BME students, takes the lead in launching a compelling data
+          collection campaign for our esteemed alumni. Our primary objective is
+          to establish a powerful alumni network that fosters connections and
+          creates valuable opportunities.
+          <br />
+          We understand the immense potential and influence our alumni possess.
+          By participating in this campaign, you can contribute to the
+          development of a thriving community that supports professional growth
+          and collaboration for both current and former students.
         </p>
         <br />
         <p>
-          Fill the form below to connect and help other Alumni connect with you.
+          We kindly request your support by providing us with the following
+          information:{" "}
         </p>
         <button onClick={openLink} className="btn btn-primary">
           View Report
