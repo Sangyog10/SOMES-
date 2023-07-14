@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Layout from "../../components/layout/Layout";
+import "./gal.css";
 import { MDBCol, MDBRow, MDBModal, MDBModalBody } from "mdb-react-ui-kit";
 
 const Gal = () => {
