@@ -49,6 +49,25 @@ const Home = () => {
           </p>
         </div>
         <div className="col-lg-4 about-image">
+          <img src="/image/gallery/SOMES.jpg" alt="" className="img-fluid" />
+        </div>
+      </div>
+      <hr />
+      <div className="about-campus-container">
+        <div className="about-campus-content">
+          <h2>Purwanchal Campus</h2>
+          <p>
+            Purwanchal Campus in Dharan, Nepal, is a respected educational
+            institution affiliated with Tribhuvan University. Established in
+            1978, it offers undergraduate and postgraduate programs in science,
+            management, humanities, and education. With a focus on practical
+            education and research, the campus provides well-equipped facilities
+            and encourages student participation in extracurricular activities.
+            It has a reputation for academic excellence, dedicated faculty, and
+            producing successful graduates who contribute to society.
+          </p>
+        </div>
+        <div className="about-campus-image">
           <img
             src="/image/gallery/campus-image.jpg"
             alt=""
@@ -91,29 +110,30 @@ const Home = () => {
           <h1>Message From HOD</h1>
 
           <p>
-            Students, I am thrilled to announce MechCamp, the grand event
-            organized by the Mechanical Society (SOMES) in our department.
-            MechCamp is a unique opportunity for mechanical engineering
-            enthusiasts to showcase their skills, exchange ideas, and ignite
-            their passion for the field. With engaging workshops, technical
-            sessions, guest lectures by industry experts, and hands-on
-            activities, MechCamp promises an unforgettable learning experience.
-            SOMES, our esteemed Mechanical Society, plays a vital role in
-            organizing MechCamp and creating a supportive community for
-            mechanical engineering students. By participating in SOMES, you can
-            enhance your academic journey through competitions, seminars, and
-            industry interactions. Our department takes pride in providing a
-            comprehensive curriculum led by experienced faculty members. With
-            state-of-the-art labs and cutting-edge research facilities, we
-            ensure that you receive a well-rounded education and stay at the
-            forefront of mechanical engineering advancements. Make the most of
-            the resources available to you, engage in research projects,
-            internships, and industry collaborations. MechCamp is just one of
-            the avenues we offer to foster your growth and keep you updated with
-            the latest developments in the field. I encourage you to actively
-            participate in MechCamp and seize this extraordinary opportunity.
-            Together, let's ignite our passion, expand our horizons, and make
-            significant contributions to the world of mechanical engineering.
+            Students, I am thrilled to announce <strong>Mech-Camp</strong>, the
+            grand event organized by the Mechanical Society{" "}
+            <strong>(SOMES)</strong> in our department. Mech-Camp is a unique
+            opportunity for mechanical engineering enthusiasts to showcase their
+            skills, exchange ideas, and ignite their passion for the field. With
+            engaging workshops, technical sessions, guest lectures by industry
+            experts, and hands-on activities, Mech-Camp promises an
+            unforgettable learning experience. SOMES, our esteemed Mechanical
+            Society, plays a vital role in organizing Mech-Camp and creating a
+            supportive community for mechanical engineering students. By
+            participating in SOMES, you can enhance your academic journey
+            through competitions, seminars, and industry interactions. Our
+            department takes pride in providing a comprehensive curriculum led
+            by experienced faculty members. With state-of-the-art labs and
+            cutting-edge research facilities, we ensure that you receive a
+            well-rounded education and stay at the forefront of mechanical
+            engineering advancements. Make the most of the resources available
+            to you, engage in research projects, internships, and industry
+            collaborations. Mech-Camp is just one of the avenues we offer to
+            foster your growth and keep you updated with the latest developments
+            in the field. I encourage you to actively participate in Mech-Camp
+            and seize this extraordinary opportunity. Together, let's ignite our
+            passion, expand our horizons, and make significant contributions to
+            the world of mechanical engineering.
           </p>
         </div>
         <div className="col-lg-4 hod-image">
@@ -155,7 +175,7 @@ const Home = () => {
                 className="card-img-top"
               />
               <div className="card-body">
-                <h5 className="card-title">MechCamp 2.0</h5>
+                <h5 className="card-title">Mech-Camp 2.0</h5>
                 <p className="card-text">
                   Grand Event that SOMES organizes annually.
                 </p>

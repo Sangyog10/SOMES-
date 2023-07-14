@@ -9,7 +9,7 @@ const Nav = () => {
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <img
-              src="/image/gallery/logo.png"
+              src="/image/gallery/SOMES.jpg"
               alt=""
               style={{ height: "40px" }}
             />

@@ -56,11 +56,6 @@ body {
   font-size: large;
   font-weight: bold;
 }
-/* .header-content button Link {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-} */
 
 /* About us  */
 .about-container {
@@ -74,13 +69,9 @@ body {
   /* margin-right: 2rem; */
 }
 .about-content {
+  width: 60%;
   display: flex;
   flex-direction: column;
-
-  gap: 2rem;
-
-  gap: 1rem;
-
   align-items: center;
   justify-content: center;
 }
@@ -97,10 +88,37 @@ body {
 }
 .about-image img {
   width: 100%;
-  height: 400px;
+  height: 100%;
   border-radius: 5%;
   margin-top: 3rem;
 }
+/* About campus */
+.about-campus-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-campus-image img {
+  height: 400px;
+  width: 500px;
+  border-radius: 10px;
+}
+.about-campus-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-campus-content p {
+  font-size: 1.2rem;
+}
+.about-campus-content h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 /* President message */
 .president-msg-container,
 .hod-msg-container {
@@ -150,10 +168,6 @@ body {
     width: 25rem;
     height: 25rem;
   }
-
-  .about-content p {
-    font-size: 1rem;
-  }
 }
 @media screen and (max-width: 1080px) {
   .header-content h1 {
@@ -192,7 +206,7 @@ body {
     width: 250px;
     height: 250px;
     left: 100px;
-    top: 250px;
+    top: 400px;
   }
   .header-image {
     width: 15rem;
@@ -208,6 +222,12 @@ body {
   }
   .about-content h1 {
     font-size: 3rem;
+  }
+  .about-campus-container {
+    flex-direction: column;
+  }
+  .about-campus-content {
+    width: 80%;
   }
 }
 @media screen and (max-width: 580px) {
@@ -234,7 +254,7 @@ body {
   .wheel {
     width: 200px;
     height: 200px;
-    top: 100px;
+    top: 150px;
     left: 180px;
   }
   .about-content {
@@ -247,7 +267,6 @@ body {
   .president-msg p,
   .hod-msg p {
     width: 100%;
-    font-size: 1rem;
   }
   .crousel-content {
     font-size: 1.8rem;
@@ -305,7 +324,6 @@ body {
   .president-msg p,
   .hod-msg p {
     width: 100%;
-    font-size: 1rem;
   }
   .crousel-content {
     font-size: 1.5rem;
