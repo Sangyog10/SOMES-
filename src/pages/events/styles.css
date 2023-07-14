@@ -10,6 +10,7 @@ video {
 .card-row {
   display: flex;
   flex-wrap: wrap;
+  
 }
 .video-container h2 {
   color: white;

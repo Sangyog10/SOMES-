@@ -29,7 +29,7 @@ const Home = () => {
           <img src="/image/gallery/wheel.svg" alt="" className="wheel" />
         </div>
       </div>
-      <hr />
+     
       {/* About us section */}
 
       <div className="row about-container" id="about">
@@ -50,17 +50,19 @@ const Home = () => {
         </div>
         <div className="col-lg-4 about-image">
           <img
-            src="/image/gallery/campus-image.jpg"
-            alt=""
+            src="/image/gallery/logo1.png"
+            alt="Loading"
+            width={1000}
+            
             className="img-fluid"
           />
         </div>
       </div>
-      <hr />
+    
       {/* MESSAGE FROM PRESIDENT */}
 
       <div className="row  president-msg-container">
-        <div className="col-lg-7  president-msg">
+        <div className="col-lg-8  president-msg">
           <h1>Message From President</h1>
 
           <p>
@@ -85,9 +87,16 @@ const Home = () => {
           <h6 className="text-center text-muted">PRESIDENT of SOMES</h6>
         </div>
       </div>
-      <hr />
+    
       <div className="row  hod-msg-container">
-        <div className="col-lg-7  hod-msg">
+      <div className="col-lg-4 hod-image">
+          <img src={hod} alt="" className="img-fluid hod-img" />
+          <h5 className="text-center">PROF. ROSHAN GHIMIRE</h5>
+          <h6 className="text-center text-muted">
+            HOD of Mechanical Department
+          </h6>
+        </div>
+        <div className="col-lg-8  hod-msg">
           <h1>Message From HOD</h1>
 
           <p>
@@ -116,17 +125,12 @@ const Home = () => {
             significant contributions to the world of mechanical engineering.
           </p>
         </div>
-        <div className="col-lg-4 hod-image">
-          <img src={hod} alt="" className="img-fluid hod-img" />
-          <h5 className="text-center">PROF. ROSHAN GHIMIRE</h5>
-          <h6 className="text-center text-muted">
-            HOD of Mechanical Department
-          </h6>
-        </div>
+      
       </div>
-      <hr />
+     
       <div className="container">
         <div className="row g-3">
+          <h3 style={{textAlign:"center",margin:"40px"}}> Quick Visits </h3>
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card">
               <img
@@ -184,13 +188,13 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <hr />
+     
 
-      <h1 className="d-flex justify-content-center crousel-content">
+      <h2 className="d-flex font-roboto justify-content-center crousel-content my-5">
         Some Glimpses Of Mech-Camp
-      </h1>
+      </h2>
       <Gallery />
-      <hr />
+     
     </Layout>
   );
 };

@@ -6,7 +6,7 @@ const Gallery = () => {
     <>
       <div
         id="carouselExampleDark"
-        className="carousel carousel-primary slide w-80 container"
+        className="carousel carousel-primary slide w-80 container mb-5 rounded"
       >
         <div className="carousel-indicators">
           <button
@@ -58,7 +58,7 @@ const Gallery = () => {
         </div>
         <div className="carousel-middle">
           <Link to="/gallery" className="btn btn-primary">
-            Watch More
+            View More
           </Link>
         </div>
         <button
