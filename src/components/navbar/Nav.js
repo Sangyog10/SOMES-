@@ -33,7 +33,7 @@ const Nav = () => {
               <li className="nav-item mx-3">
                 <NavLink
                   className="nav-link "
-                  activeClassName="active-link"
+                  activeclassname="active-link"
                   aria-current="page"
                   to="/"
                 >
@@ -44,7 +44,7 @@ const Nav = () => {
               <li className="nav-item mx-3">
                 <NavLink
                   className="nav-link"
-                  activeClassName="active-link"
+                  activeclassname="active-link"
                   to="/committee"
                 >
                   Committee
@@ -53,7 +53,7 @@ const Nav = () => {
               <li className="nav-item mx-3">
                 <NavLink
                   className="nav-link"
-                  activeClassName="active-link"
+                  activeclassname="active-link"
                   to="/notes"
                 >
                   Notes
@@ -62,7 +62,7 @@ const Nav = () => {
               <li className="nav-item mx-3">
                 <NavLink
                   className="nav-link"
-                  activeClassName="active-link"
+                  activeclassname="active-link"
                   to="/events"
                 >
                   Events
@@ -71,7 +71,7 @@ const Nav = () => {
               <li className="nav-item mx-3">
                 <NavLink
                   className="nav-link"
-                  activeClassName="active-link"
+                  activeclassname="active-link"
                   to="/gallery"
                 >
                   Gallery
@@ -80,7 +80,7 @@ const Nav = () => {
               <li className="nav-item mx-3">
                 <NavLink
                   className="nav-link"
-                  activeClassName="active-link"
+                  activeclassname="active-link"
                   to="/alumni"
                 >
                   Alumni

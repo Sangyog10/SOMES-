@@ -4,6 +4,7 @@ import Home from "./pages/home/Home";
 import Alumni from "./pages/alumni/Alumini";
 import Committee from "./pages/committee/Committee";
 import Notes from "./pages/notes/Notes";
+import "./App.css";
 // import Events from "./pages/events/Events";
 import GoToTop from "./components/topButton/GoToTop";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
