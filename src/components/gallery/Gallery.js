@@ -6,8 +6,9 @@ const Gallery = () => {
     <>
       <div
         id="carouselExampleDark"
-        className="carousel carousel-primary slide w-90 container mb-5"
-      >
+        class="carousel slide container" data-bs-ride="carousel"
+        data-bs-interval="100"
+        >
         <div className="carousel-indicators">
           <button
             type="button"
