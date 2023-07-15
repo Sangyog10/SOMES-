@@ -33,7 +33,7 @@ const Home = () => {
       {/* About us section */}
 
       <div className="row about-container" id="about">
-        <div className="col-lg-8 about-content">
+        <div className="col-lg-8 about-content   order-md-1 order-sm-2">
           <h1>About-Us</h1>
           <p>
             The{" "}
@@ -48,11 +48,12 @@ const Home = () => {
             mechanical engineering.
           </p>
         </div>
-        <div className="col-lg-4 about-image">
+        <div className="col-lg-4 about-image  order-md-2 order-sm-1">
           <img
             src="/image/gallery/logo1.png"
             alt="Loading"
             className="img-fluid"
+           
           />
         </div>
       </div>
@@ -130,7 +131,7 @@ const Home = () => {
         <div className="row g-3">
           <h3 style={{textAlign:"center"}}> Quick Visits </h3>
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card shadow">
+            <div className="card shadow hover-overlay">
               <img
                 src="image/project/material.svg"
                 height="250px"
