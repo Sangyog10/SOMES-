@@ -18,7 +18,7 @@ const Gal = () => {
   return (
     <Layout title={"Gallery-SOMES"}>
       <div className="gallery-title">
-        <h1 className="text-center">Mech-Camp 2.0 Gallery</h1>
+        <h1 className="text-center shadow-sm my-5">Mech-Camp 2.0 Gallery</h1>
       </div>
       <MDBRow>
         <MDBCol lg={4} md={12} className="mb-4 mb-lg-0">

@@ -33,7 +33,7 @@ const Home = () => {
       {/* About us section */}
 
       <div className="row about-container" id="about">
-        <div className="col-lg-7 about-content">
+        <div className="col-lg-8 about-content">
           <h1>About-Us</h1>
           <p>
             The{" "}
@@ -52,8 +52,6 @@ const Home = () => {
           <img
             src="/image/gallery/logo1.png"
             alt="Loading"
-            width={1000}
-            
             className="img-fluid"
           />
         </div>
@@ -130,7 +128,7 @@ const Home = () => {
      
       <div className="container">
         <div className="row g-3">
-          <h3 style={{textAlign:"center",margin:"40px"}}> Quick Visits </h3>
+          <h3 style={{textAlign:"center"}}> Quick Visits </h3>
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card shadow">
               <img

@@ -10,7 +10,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer ">
+    <footer className="footer my-4 ">
       <div className="row footer-contacts">
         <div className="col-lg-3 col-sm-6 pred">
           <h2>President</h2>

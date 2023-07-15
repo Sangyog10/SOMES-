@@ -14,7 +14,7 @@ const Alumni = () => {
   return (
     <Layout title={"Alumni-SOMES"}>
       <div className="alumini_content mx-4 shadow mb-2">
-        <h1>IOE Purwanchal Campus,BME-Alumni Database</h1>
+        <h3 className="shadow">IOE Purwanchal Campus,BME-Alumni Database</h3>
         <p className="mx-4">
           Join us in an exciting endeavor as the Society of Mechanical
           Engineering Students (SOMES), a vibrant organization of IOE Purwanchal
