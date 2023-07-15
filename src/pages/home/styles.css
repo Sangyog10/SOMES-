@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 100vh;
+
 }
 .header-image {
   width: 30rem;
@@ -15,7 +15,7 @@ body {
 
 .wheel {
   position: absolute;
-  top: 200px;
+  top: 100px;
   left: 200px;
   z-index: -1;
   opacity: 0.3;
@@ -56,6 +56,8 @@ body {
   font-size: large;
   font-weight: bold;
 }
+
+
 /* .header-content button Link {
   text-decoration: none;
   color: white;

@@ -36,14 +36,13 @@ const Events = () => {
         </p>
       </div>
       <hr />
-      <div className="event-heaing text-center">
+      <div className="event-heaing  text-center">
         <h1>Our Events</h1>
       </div>
-      <div className="card-row"></div>
-      <MDBCardGroup>
+      <MDBCardGroup className="container mb-3">
         <div className="row">
           <div className="col-md-4 g-3">
-            <MDBCard className="card">
+            <MDBCard className="card shadow">
               <MDBCardImage
                 src="/image/project/presentation.jpg"
                 alt="..."
@@ -54,7 +53,7 @@ const Events = () => {
                 <MDBCardTitle>
                   Research Idea Presentation Competition
                 </MDBCardTitle>
-                <MDBCardText>
+                <MDBCardText className="text-black-50">
                   "Presenting a research idea concisely and effectively to
                   capture the interest and support of the audience."
                 </MDBCardText>
@@ -63,7 +62,7 @@ const Events = () => {
           </div>
 
           <div className="col-md-4 g-3">
-            <MDBCard className="card">
+            <MDBCard className="card shadow">
               <MDBCardImage
                 src="/image/project/demonstration.jpg"
                 alt="..."
@@ -72,7 +71,7 @@ const Events = () => {
               />
               <MDBCardBody>
                 <MDBCardTitle>Project Demonstration</MDBCardTitle>
-                <MDBCardText>
+                <MDBCardText className="text-black-50">
                   "Showcasing the functionality, features, and outcomes of a
                   project through a live demonstration."
                 </MDBCardText>
@@ -81,7 +80,7 @@ const Events = () => {
           </div>
 
           <div className="col-md-4 g-3">
-            <MDBCard className="card">
+            <MDBCard className="card shadow">
               <MDBCardImage
                 src="/image/project/talk.jpg"
                 alt="..."
@@ -90,7 +89,7 @@ const Events = () => {
               />
               <MDBCardBody>
                 <MDBCardTitle>Innovation Talk</MDBCardTitle>
-                <MDBCardText>
+                <MDBCardText className="text-black-50">
                   "Informative discussion that explores groundbreaking ideas,
                   and creative solutions to inspire positive change."
                 </MDBCardText>
@@ -98,7 +97,7 @@ const Events = () => {
             </MDBCard>
           </div>
           <div className="col-md-4 g-3">
-            <MDBCard className="card">
+            <MDBCard className="card shadow">
               <MDBCardImage
                 src="/image/project/3d.jpg"
                 alt="..."
@@ -107,7 +106,7 @@ const Events = () => {
               />
               <MDBCardBody>
                 <MDBCardTitle>3D Modelling Competition</MDBCardTitle>
-                <MDBCardText>
+                <MDBCardText className="text-black-50">
                   "Competitive event showcasing skills by creating
                   three-dimensional digital models using specialized software."
                 </MDBCardText>
@@ -115,7 +114,7 @@ const Events = () => {
             </MDBCard>
           </div>
           <div className="col-md-4 g-3">
-            <MDBCard className="card">
+            <MDBCard className="card shadow">
               <MDBCardImage
                 src="/image/project/art.jpg"
                 alt="..."
@@ -124,7 +123,7 @@ const Events = () => {
               />
               <MDBCardBody>
                 <MDBCardTitle>Junk Art Competition</MDBCardTitle>
-                <MDBCardText>
+                <MDBCardText className="text-black-50">
                   "Artistic expression that involves creating recycled
                   materials, transforming trash into treasures."
                 </MDBCardText>
@@ -132,7 +131,7 @@ const Events = () => {
             </MDBCard>
           </div>
           <div className="col-md-4 g-3">
-            <MDBCard className="card">
+            <MDBCard className="card shadow">
               <MDBCardImage
                 src="/image/project/robo.jpg"
                 alt="..."
@@ -141,7 +140,7 @@ const Events = () => {
               />
               <MDBCardBody>
                 <MDBCardTitle>Robo Soccer</MDBCardTitle>
-                <MDBCardText>
+                <MDBCardText className="text-black-50">
                   "Autonomous robots playing soccer, showcasing AI and robotics
                   skills."
                 </MDBCardText>
@@ -149,16 +148,16 @@ const Events = () => {
             </MDBCard>
           </div>
           <div className="col-md-4 g-3">
-            <MDBCard className="card">
+            <MDBCard className="card shadow">
               <MDBCardImage
                 src="/image/project/fifa.jpg"
                 alt="..."
-                height="320px"
+                height="300px"
                 position="top"
               />
               <MDBCardBody>
                 <MDBCardTitle>FIFA Championship</MDBCardTitle>
-                <MDBCardText>
+                <MDBCardText className="text-black-50">
                   "Global virtual tournament showcasing gaming skills in FIFA.""
                 </MDBCardText>
               </MDBCardBody>

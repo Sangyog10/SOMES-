@@ -132,56 +132,57 @@ const Home = () => {
         <div className="row g-3">
           <h3 style={{textAlign:"center",margin:"40px"}}> Quick Visits </h3>
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card">
+            <div className="card shadow">
               <img
                 src="image/project/material.svg"
-                height="320px"
+                height="250px"
+               
                 alt=""
                 className="card-img-top"
               />
               <div className="card-body">
                 <h5 className="card-title">Study Materials</h5>
-                <p className="card-text">
+                <p className="card-text text-black-50">
                   All notes available with youtube links.
                 </p>
-                <Link to="/notes" class="btn btn-primary">
-                  Go
+                <Link to="/notes" class="btn btn-outline-primary btn-sm">
+                Visit &rarr;
                 </Link>
               </div>
             </div>
           </div>
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card">
+            <div className="card shadow ">
               <img
                 src="/image/project/event.svg"
-                height="320px"
+                height="250px"
                 alt=""
                 className="card-img-top"
               />
               <div className="card-body">
                 <h5 className="card-title">MechCamp 2.0</h5>
-                <p className="card-text">
+                <p className="card-text text-black-50">
                   Grand Event that SOMES organizes annually.
                 </p>
-                <Link to="/events" class="btn btn-primary">
-                  Go
+                <Link to="/events" class="btn btn-outline-primary btn-sm">
+                Visit &rarr;
                 </Link>
               </div>
             </div>
           </div>
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card">
+            <div className="card shadow">
               <img
                 src="/image/project/alumni.svg"
                 alt=""
-                height="320px"
+                height="250px"
                 className="card-img-top"
               />
               <div className="card-body">
                 <h5 className="card-title">Alumni</h5>
-                <p className="card-text">Form for Mechanical Pass-Outs.</p>
-                <Link to="/alumni" class="btn btn-primary">
-                  Go
+                <p className="card-text text-black-50">Here you can add or see the list of passout seniors.</p>
+                <Link to="/alumni" class="btn btn-outline-primary btn-sm">
+                  Visit &rarr;
                 </Link>
               </div>
             </div>
