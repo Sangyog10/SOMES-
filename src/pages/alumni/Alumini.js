@@ -13,7 +13,7 @@ const Alumni = () => {
 
   return (
     <Layout title={"Alumni-SOMES"}>
-      <div className="alumini_content mx-4">
+      <div className="alumini_content mx-4 shadow mb-2">
         <h1>IOE Purwanchal Campus,BME-Alumni Database</h1>
         <p className="mx-4">
           Join us in an exciting endeavor as the Society of Mechanical
@@ -33,7 +33,7 @@ const Alumni = () => {
           We kindly request your support by providing us with the following
           information:{" "}
         </p>
-        <button onClick={openLink} className="btn btn-primary">
+        <button onClick={openLink} className="btn btn-primary mb-4">
           View Report
         </button>
       </div>
