@@ -144,7 +144,7 @@ const Home = () => {
                 <p className="card-text text-black-50">
                   All notes available with youtube links.
                 </p>
-                <Link to="/notes" class="btn btn-outline-primary btn-sm">
+                <Link to="/notes" className="btn btn-outline-primary btn-sm">
                 Visit &rarr;
                 </Link>
               </div>
@@ -163,7 +163,7 @@ const Home = () => {
                 <p className="card-text text-black-50">
                   Grand Event that SOMES organizes annually.
                 </p>
-                <Link to="/events" class="btn btn-outline-primary btn-sm">
+                <Link to="/events" className="btn btn-outline-primary btn-sm">
                 Visit &rarr;
                 </Link>
               </div>
@@ -180,7 +180,7 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="card-title">Alumni</h5>
                 <p className="card-text text-black-50">Here you can add or see the list of passout seniors.</p>
-                <Link to="/alumni" class="btn btn-outline-primary btn-sm">
+                <Link to="/alumni" className="btn btn-outline-primary btn-sm">
                   Visit &rarr;
                 </Link>
               </div>
