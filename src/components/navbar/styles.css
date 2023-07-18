@@ -8,11 +8,13 @@ li {
 }
 
 .nav-link {
-  transition: opacity 0.3s ease;
+  transition: opacity 1s ease;
+  color: crimson;
 }
 
 .active-link {
   opacity: 1;
+ 
 }
 
 @media screen and (max-width: 1024px) {

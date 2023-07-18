@@ -37,7 +37,7 @@ const Nav = () => {
                   aria-current="page"
                   to="/"
                 >
-                  Home
+                  HOME
                 </NavLink>
               </li>
 
@@ -47,7 +47,7 @@ const Nav = () => {
                   activeClassName="active-link"
                   to="/committee"
                 >
-                  Committee
+                  COMMITTEE
                 </NavLink>
               </li>
               <li className="nav-item mx-3">
@@ -56,7 +56,7 @@ const Nav = () => {
                   activeClassName="active-link"
                   to="/notes"
                 >
-                  Notes
+                  NOTES
                 </NavLink>
               </li>
               <li className="nav-item mx-3">
@@ -65,7 +65,7 @@ const Nav = () => {
                   activeClassName="active-link"
                   to="/events"
                 >
-                  Events
+                  EVENTS
                 </NavLink>
               </li>
               <li className="nav-item mx-3">
@@ -74,7 +74,7 @@ const Nav = () => {
                   activeClassName="active-link"
                   to="/gallery"
                 >
-                  Gallery
+                  GALLERY
                 </NavLink>
               </li>
               <li className="nav-item mx-3">
@@ -83,7 +83,7 @@ const Nav = () => {
                   activeClassName="active-link"
                   to="/alumni"
                 >
-                  Alumni
+                  ALUMNI
                 </NavLink>
               </li>
             </ul>

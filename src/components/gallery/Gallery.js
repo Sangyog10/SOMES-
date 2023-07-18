@@ -6,8 +6,8 @@ const Gallery = () => {
     <>
       <div
         id="carouselExampleDark"
-        className="carousel carousel-primary slide w-90 container mb-5"
-      >
+        className="carousel slide container" data-bs-ride="carousel"
+        >
         <div className="carousel-indicators">
           <button
             type="button"
@@ -34,7 +34,7 @@ const Gallery = () => {
           <div className="carousel-item active" data-bs-interval={10000}>
             <img
               src="/image/gallery/vintageJeep.jpg"
-              className="d-block w-100 img-fluid"
+              className="d-block w-100 img-fluid rounded"
               alt="..."
               style={{ width: "1140px", height: "450px" }}
             />
@@ -42,7 +42,7 @@ const Gallery = () => {
           <div className="carousel-item" data-bs-interval={2000}>
             <img
               src="/image/gallery/camera.jpg"
-              className="d-block w-100"
+              className="d-block w-100 rounded"
               alt="..."
               style={{ width: "1140px", height: "450px" }}
             />
@@ -50,7 +50,7 @@ const Gallery = () => {
           <div className="carousel-item">
             <img
               src="/image/gallery/jeep.jpg"
-              className="d-block w-100"
+              className="d-block w-100 rounded"
               style={{ width: "1140px", height: "450px" }}
               alt="..."
             />

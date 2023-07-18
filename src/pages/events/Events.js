@@ -116,7 +116,7 @@ const Events = () => {
           <div className="col-md-4 g-3">
             <MDBCard className="card shadow">
               <MDBCardImage
-                src="/image/project/art.jpg"
+                src="/image/gallery/jeep.jpg"
                 alt="..."
                 height="320px"
                 position="top"
